@@ -1,16 +1,10 @@
 {
-  "name": "mintable-token",
+  "name": "sheilar-codigo.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://sheilar-codigo.github.io",
   "scripts": {
-    "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "react-scripts build", 
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -22,8 +16,5 @@
     "chai-bn": "^0.2.1",
     "dotenv": "^8.2.0",
     "web3": "^1.3.4"
-  },
-  "devDependencies": {
-    "gh-pages": "^3.1.0"
   }
 }
